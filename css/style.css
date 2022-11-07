@@ -1,0 +1,62 @@
+body {
+    background-image: url("1.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+header {
+   background-color: gray;
+    padding: 10px;
+    text-align: center;
+    background-color: transparent;
+}
+article {
+    background-color:darkgray;
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+}
+ul {
+    list-style-type: none;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: darkslategray;
+}
+li {
+    display: inline;
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: black;
+}
+footer {
+    margin-top: 10px;
+    background-color: darkslategrey;
+    float: auto;
+    padding: 10px;
+    color: white;
+}
+aside {
+    width: 200px;
+    background-color: darkslategrey;
+    float: left;
+    text-align: left;
+}
+aside a:hover{
+    background-color: black;
+}
+aside a {
+    display: block;
+    padding: 15px 3px;
+    color: white;
+    text-decoration: none;
+}
